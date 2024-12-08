@@ -10,7 +10,7 @@ title: Chad's Portfolio
 
 <!-- Add your bold italic quote here -->
 <div style="text-align: center; margin-top: 15px;">
-  ***"An army of sheep led by a lion is better than an army of lions led by a sheep."***  
+  "An army of sheep led by a lion is better than an army of lions led by a sheep."  
   <br>– Alexander the Great
 </div>
 
