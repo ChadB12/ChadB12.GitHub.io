@@ -27,7 +27,7 @@ Customer churn is a critical issue in the telecommunications industry, impacting
 
 ## Visual Results
 ### Logistic Regression Performance:
-(![Logistic Regression Classification Report](../assets/images/Log_Reg_Class_Report.png)
+![Logistic Regression Classification Report](../assets/images/Log_Reg_Class_Report.png)
 
 
 ### Key Insights:
