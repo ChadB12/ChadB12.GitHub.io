@@ -3,7 +3,10 @@ layout: default
 title: Chad's Portfolio
 ---
 
-# Welcome to Chad's Portfolio
+![Chad's Profile Picture](https://avatars.githubusercontent.com/u/180487754?v=4)  
+<center><b>Welcome to Chad's Portfolio</b></center>
+
+---
 
 I am a data analyst and (aspiring) AWS cloud specialist passionate about solving complex problems with innovative solutions. Explore my projects below:
 
