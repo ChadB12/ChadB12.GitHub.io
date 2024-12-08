@@ -28,7 +28,7 @@ I am a data analyst and (aspiring) AWS cloud specialist passionate about solving
 
 <!-- Add your project links here -->
 - [Customer Churn Prediction](projects/customer-churn.md)
-- [Baseball Player Analysis](projects/baseball-analysis.md)
+- [Baseball Player Analysis](projects/baseball-season-predictor.md)
 
 <!-- Add your social links here -->
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chad-broussard16) or check out my [GitHub repositories](https://github.com/chadb12).
