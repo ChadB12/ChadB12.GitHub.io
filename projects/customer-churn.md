@@ -48,7 +48,7 @@ This solution enables businesses to:
 - **Programming:** Python, Flask
 - **Libraries:** Pandas, Scikit-learn, Matplotlib
 - **Deployment:** Flask for real-time predictions
-- **Dataset:** [Telco Customer Churn Dataset](https://github.com/ChadB12/CustomerChurn)
+- **Dataset:** [Telco Customer Churn Dataset](data/Telco_Customer_Churn_Sample - Sheet1.csv)
 
 ---
 
