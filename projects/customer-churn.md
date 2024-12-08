@@ -27,7 +27,7 @@ Customer churn is a critical issue in the telecommunications industry, impacting
 
 ## Visual Results
 ### Logistic Regression Performance:
-![Classification Report](../assets/images/classification_report.png)
+![Classification Report]("C:\Users\chadb\Pictures\Screenshots\Screenshot 2024-12-08 111334.png")
 
 ### Key Insights:
 - Customers with *Month-to-Month contracts* are at the highest risk of churn.
