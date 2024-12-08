@@ -1,67 +1,56 @@
-# **Customer Churn Prediction Project**
+---
+layout: default
+title: Customer Churn Prediction
+---
 
-## **Overview**
+# Customer Churn Prediction
 
-This project uses machine learning to predict **customer churn** based on various attributes, using a **logistic regression model**. The project focuses on a dataset of customers, specifically analyzing features such as **tenure, monthly charges, total charges**, and other categorical factors like **gender, contract type, and internet service options**. The goal is to understand which customers are more likely to leave (churn) and provide actionable insights.
+Customer churn is a critical issue in the telecommunications industry, impacting profitability and customer retention. This project uses machine learning to predict churn, enabling businesses to take proactive measures and improve customer satisfaction.
 
-## **Project Structure**
+---
 
-- **app.py** - Flask application that allows users to upload a dataset and get churn predictions.
-- **templates/**  
-  - `index.html` - Upload page for CSV files.
-  - `result.html` - Result page displaying random customer data and the churn prediction.
-- **churn_model_3.pkl** - The trained logistic regression model.
-- **trained_features.txt** - List of features the model was trained on, ensuring compatibility with the uploaded data.
-- **uploads/** - Folder to store user-uploaded files for predictions.
+## Key Outcomes
+- Achieved **81.7% accuracy** using Logistic Regression, with a weighted F1 score of **0.81**.
+- Random Forest model was tested but achieved a slightly lower accuracy of **80%**.
+- **Top predictor of churn:** *Month-to-Month contract type*, emphasizing the importance of subscription models in churn behavior.
 
-## **Dataset**
+---
 
-The dataset, `WA_Fn-UseC_-Telco-Customer-Churn.csv`, contains customer information with features such as:
-- **SeniorCitizen**
-- **tenure**
-- **MonthlyCharges**
-- **TotalCharges**
-- Categorical features like **gender**, **Contract**, **InternetService**
+## Project Highlights
+- **Data Analysis:** Conducted in-depth analysis of customer demographics, service details, and account information to identify trends and correlations.
+- **Machine Learning Models:** 
+  - Logistic Regression achieved a balanced performance with high precision and recall.
+  - Random Forest model tested as a benchmark for comparison.
+- **Deployment:** Designed a user-friendly Flask application to allow users to upload datasets and get predictions in real-time.
 
-The target variable is **Churn**, indicating whether the customer left or stayed.
+---
 
-## **Steps**
+## Visual Results
+### Logistic Regression Performance:
+![Classification Report](../assets/images/classification_report.png)
 
-1. **Data Preprocessing**:
-   - Convert `TotalCharges` to numeric, handling missing values.
-   - One-hot encode categorical variables.
-   - Add derived features:
-     - **total_services**: Total active services for each customer.
-     - **tenure_per_service**: Tenure divided by the number of active services.
+### Key Insights:
+- Customers with *Month-to-Month contracts* are at the highest risk of churn.
+- Identified critical churn predictors, including tenure length and internet service type.
 
-2. **Model Training**:
-   - Train a **Logistic Regression** model to classify customers as churned or not churned.
-   - Split the data into training and testing sets with an 80/20 split.
+---
 
-3. **Flask App**:
-   - A web interface built with Flask for user interaction.
-   - Users can upload their own CSV file to get predictions for their data.
-   - Displays a random customer’s information and whether they are likely to churn.
+## Business Impact
+This solution enables businesses to:
+- **Proactively retain customers** by identifying at-risk groups early.
+- **Personalize marketing strategies** based on churn predictors.
+- **Enhance profitability** by reducing churn rates and increasing customer lifetime value.
 
-## **Technologies Used**
+---
 
-- **Python**: Programming language for building the model and Flask app.
-- **Pandas**: Data manipulation and preprocessing.
-- **scikit-learn**: Machine learning library used to train the logistic regression model.
-- **Flask**: Web framework to build the interactive web application.
-- **HTML/CSS**: Frontend for the web application.
+## Tools and Technologies
+- **Programming:** Python, Flask
+- **Libraries:** Pandas, Scikit-learn, Matplotlib
+- **Deployment:** Flask for real-time predictions
+- **Dataset:** [Telco Customer Churn Dataset](https://github.com/ChadB12/CustomerChurn)
 
-## **How to Run**
+---
 
-1. **Install required packages**:
-   ```bash
-   pip install -r requirements.txt
-2. **Run the Flask App**
-   ```bash
-   python app.py
-3. **Upload CSV Data**
-   - CSV Data is located in files (Telco Customer Churn Dataset)
-
-***Conclusions***
-- - This project provides a functional example of a machine learning powered web application that predicts customer churn.
-- - By identifying churn patterns, businesses can implement targeted retention strategies to improve customer loyalty
+## Call to Action
+Interested in how I can bring similar insights to your organization?  
+[Let’s connect on LinkedIn](https://www.linkedin.com/in/chad-broussard16) or explore the [GitHub repository](https://github.com/ChadB12/CustomerChurn).
