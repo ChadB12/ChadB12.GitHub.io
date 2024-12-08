@@ -51,7 +51,7 @@ This solution enables businesses to:
 - **Dataset:** ## Dataset
 
 The dataset used in this project is available for download:  
-[Telco Customer Churn Dataset](https://github.com/Chadb12/chadb12.github.io/blob/main/data/Telco-Customer-Churn.csv)
+[Telco Customer Churn Dataset](https://github.com/Chadb12/chadb12.github.io/blob/main/data/Telco_Customer_Churn_Sample - Sheet1.csv)
 
 
 ---
