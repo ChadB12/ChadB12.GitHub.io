@@ -166,6 +166,11 @@ Typical input values for the model based on an above average MLB team's stats:
 
 2. **Interactive API Documentation**: Use the Swagger interface to send POST requests and view responses.
 
+## Dataset Used
+
+The dataset used for training the model includes a combination of pitching and batting statistics. The dataset can be found in the following path within the repository:
+
+**[Dataset](data/pitching_batting_combined_df.csv)**
 
 ## 👨‍💻 **Author**
 
@@ -181,3 +186,4 @@ Typical input values for the model based on an above average MLB team's stats:
 - **FastAPI** for creating the API.
 - **AWS EC2** for deployment.
 - **Scikit-Learn** for data preprocessing and feature selection.
+- **Pybaseball** for data accumulation.
