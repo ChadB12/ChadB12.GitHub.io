@@ -139,7 +139,7 @@ curl -X 'POST' \
 
 ## 📊 **Example Data**
 
-Typical input values for the model based on MLB team stats:
+Typical input values for the model based on an above average MLB team's stats:
 
 | Feature | Description                      | Example Value |
 |---------|----------------------------------|---------------|
@@ -161,24 +161,17 @@ Typical input values for the model based on MLB team stats:
 1. **Go to Docs**: Open the Swagger UI to test the API via a user-friendly interface:
 
    ```plaintext
-   http://your_server_ip:8000/docs
+   http://18.219.97.159:8000/docs
    ```
 
 2. **Interactive API Documentation**: Use the Swagger interface to send POST requests and view responses.
 
----
-
-## 💜 **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👨‍💻 **Author**
 
-- **Your Name**  
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername)  
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)  
+- **Chad Broussard**  
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/chad-broussard16)  
+- GitHub: [Your GitHub Profile](https://github.com/ChadB12)  
 
 ---
 
