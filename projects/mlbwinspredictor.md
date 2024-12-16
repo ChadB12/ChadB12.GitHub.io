@@ -170,8 +170,8 @@ Typical input values for the model based on an above average MLB team's stats:
 ## 👨‍💻 **Author**
 
 - **Chad Broussard**  
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/chad-broussard16)  
-- GitHub: [Your GitHub Profile](https://github.com/ChadB12)  
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/chad-broussard16)  
+- GitHub: [GitHub Profile](https://github.com/ChadB12)  
 
 ---
 
