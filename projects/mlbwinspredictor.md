@@ -67,8 +67,8 @@ mlb-wins-predictor/
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/mlb-wins-predictor.git
-cd mlb-wins-predictor
+git clone https://github.com/ChadB12/mlbwinspredictor.git
+cd mlbwinspredictor
 ```
 
 ### 2. **Create a Virtual Environment**
